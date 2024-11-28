@@ -1,6 +1,6 @@
 function [c1,c2,c3,c4] = ComputeCircumference(p,q,U,V,HCtrlpts)
 
-%%%%%% Compute the length of four edges of the NRBS surface %%%%%%
+%%%%%% Compute the length of four edges of the NURBS surface %%%%%%
 % input: 
 %   p          - spline degree   (U-direction)
 %   q          - spline degree   (V-direction)
