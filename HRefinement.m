@@ -1,3 +1,11 @@
+/**
+ * @file HRefinement.m
+ * @author Qiong Pan (PQ2019@mail.ustc.edu.cn)
+ * @brief  compute the relation matrix between corse and fine control meshes for a NURBS surface
+ * Orginal work written by Qiong Pan in Matlab.
+ * @date 2021-11-1
+ */
+
 function [UNew,VNew,UTransMat,VTransMat] = HRefinement(p,q,m,n,U,V,Uins,Vins)
 
 %%%%%% Compute the transformation matrix between control points of the former and refined surfaces  %%%%%%         
