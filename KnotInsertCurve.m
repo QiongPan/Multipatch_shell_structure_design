@@ -1,3 +1,10 @@
+/**
+ * @file KnotInsertCurve.m
+ * @author Qiong Pan (PQ2019@mail.ustc.edu.cn)
+ * @brief  knot insertion for a NURBS curve
+ * Orginal work written by Qiong Pan in Matlab.
+ * @date 2021-11-1
+ */
 function [Ubar, Ctrlptsbar] = KnotInsertCurve(u_vec,U,Ctrlpts)
 
 %%%%%% Insert knots for a NURBS curve %%%%%%
