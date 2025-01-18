@@ -1,3 +1,11 @@
+/**
+ * @file BasisFuncDer.m
+ * @author Qiong Pan (PQ2019@mail.ustc.edu.cn)
+ * @brief compute 0-th to nth derivatives for Non-Zero B-Spline basis functions.
+ * Orginal work written by Qiong Pan in Matlab.
+ * @date 2021-11-1
+ */
+
 function NnthDer = BasisFuncDer(i, p, u, U, nth)
 
 %%%%%% The 0-th to nth derivatives for Non-Zero B-Spline basis functions at u∈[u_i,u_{i+1}) %%%%%%
