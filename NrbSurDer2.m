@@ -1,3 +1,11 @@
+/**
+ * @file NrbSurDer2.m
+ * @author Qiong Pan (PQ2019@mail.ustc.edu.cn)
+ * @brief  Non-Zero NURBS basis functions and their first, second partial derivatives in a surface point
+ * Orginal work written by Qiong Pan in Matlab.
+ * @date 2021-11-1
+ */
+
 function [IdxU,IdxV, N, Ns, Nt, Nst, Nss, Ntt] = NrbSurDer2(m,n,p,q,u,v,U,V,Weights)
 
 %%%%%% The 0-th. first and second partial derivatives of (non-zero) NURBS basis functions at (u,v) %%%%%% 
