@@ -1,7 +1,7 @@
 /**
- * @file KnotInsert.m
+ * @file NonZeroBasis.m
  * @author Qiong Pan (PQ2019@mail.ustc.edu.cn)
- * @brief  Non-Zero NURBS basis finctions for a NURBS surface
+ * @brief  Non-Zero NURBS basis functions for a NURBS surface
  * Orginal work written by Qiong Pan in Matlab.
  * @date 2021-11-1
  */
