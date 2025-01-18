@@ -1,3 +1,11 @@
+/**
+ * @file DegreeElevateSurface.m
+ * @author Qiong Pan (PQ2019@mail.ustc.edu.cn)
+ * @brief  degree elevation for a NURBS surface.
+ * Orginal work written by Qiong Pan in Matlab.
+ * @date 2021-11-1
+ */
+
 function [NewCtrlpts,NewU,NewV] = DegreeElevateSurface(p,q,U,V,Ctrlpts,tu,tv)
 
 %%%%%% Degree elevate for a NURBS SURFACE %%%%%% 
