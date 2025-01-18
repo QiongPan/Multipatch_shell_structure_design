@@ -1,7 +1,7 @@
 /**
  * @file KnotInsert.m
  * @author Qiong Pan (PQ2019@mail.ustc.edu.cn)
- * @brief  knot insertion for NURBS a surface
+ * @brief  knot insertion for a NURBS surface
  * Orginal work written by Qiong Pan in Matlab.
  * @date 2021-11-1
  */
