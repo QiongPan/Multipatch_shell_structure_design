@@ -1,3 +1,11 @@
+/**
+ * @file BasisFunc.m
+ * @author Qiong Pan (PQ2019@mail.ustc.edu.cn)
+ * @brief  compute the basis value for a B-Spline function.
+ * Orginal work written by Qiong Pan in Matlab.
+ * @date 2021-11-1
+ */
+
 function N = BasisFunc(i, p, u, U)
 
 %%%%%% Basis function for B-Spline %%%%%%
