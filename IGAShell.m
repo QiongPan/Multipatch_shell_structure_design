@@ -4,6 +4,7 @@
  * @brief  Code for <<Isogeometric Topology Optimization of Multi-patch Shell Structures>>.
  * Orginal work written by Qiong Pan in Matlab.
  * @date 2024-01-23
+ *  Please feel free to contact us with any questions! 
  */
  
 function IGAShell()
