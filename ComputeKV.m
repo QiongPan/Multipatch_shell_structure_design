@@ -4,6 +4,7 @@
  * @brief  compute the stiffness and volume on guass points (elementwise) for shell analysis.
  * Orginal work written by Qiong Pan in Matlab.
  * @date 2024-01-23
+ *  Please feel free to contact us with any questions! 
  */
 
 function [Ke_GuassPt_ECell, Ve_GuassPt_All,Weight_GuassPt_All] = ComputeKV(mAnalysis,nAnalysis,p,q,UAnalysis,VAnalysis,UEle,VEle,Ctrlpts, ne_u, ne_v)
