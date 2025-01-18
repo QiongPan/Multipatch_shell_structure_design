@@ -1,3 +1,11 @@
+/**
+ * @file KnotRemove.m
+ * @author Qiong Pan (PQ2019@mail.ustc.edu.cn)
+ * @brief  knot removal for a NURBS surface
+ * Orginal work written by Qiong Pan in Matlab.
+ * @date 2021-11-1
+ */
+
 function [Ubar, Vbar, Ctrlptsbar, tu, tv] = KnotRemove(U,V,Ctrlpts,u,v,num_u,num_v,TOL)
 
 %%%%%% Remove knot u num_u times and knot v num_v times for a NURBS surface %%%%%%
