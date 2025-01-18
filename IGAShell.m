@@ -1,5 +1,12 @@
+/**
+ * @file IGAShell.m
+ * @author Qiong Pan (PQ2019@mail.ustc.edu.cn)
+ * @brief  Code for <<Isogeometric Topology Optimization of Multi-patch Shell Structures>>.
+ * Orginal work written by Qiong Pan in Matlab.
+ * @date 2024-01-23
+ */
+ 
 function IGAShell()
-
 %%%%%% the main program file that used to optimize the topology of shell structure %%%%%%
 % user defined:
 %   sType                   - the label of mid-surface
