@@ -4,6 +4,7 @@
  * @brief analysis and sensitivity analysis for a multi-patch shell structure.
  * Orginal work written by Qiong Pan in Matlab.
  * @date 2024-01-23
+ *  Please feel free to contact us with any questions! 
  */
 
 function [compl,DersCompl_Vec,vol,DersVol_Vec,GlobalVol] = IGAInfo(DOF_Analysis,DOF_Design,num_pat,DegreeMat,num_ele_Mat,DensCtrlpts,NonZeroBasis_GuassPt_PCell,DNonZeroIdx_PCell, ...
