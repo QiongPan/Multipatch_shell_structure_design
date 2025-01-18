@@ -1,3 +1,11 @@
+/**
+ * @file NonZeroBasisIdx.m
+ * @author Qiong Pan (PQ2019@mail.ustc.edu.cn)
+ * @brief Indices of Non-Zero NURBS basis functions for a NURBS surface
+ * Orginal work written by Qiong Pan in Matlab.
+ * @date 2021-11-1
+ */
+
 function idx = NonZeroBasisIdx(n, p, u, U)
 
 %%%%%% Numbering of basis functions for NURBS %%%%%%
