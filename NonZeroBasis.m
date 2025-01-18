@@ -1,3 +1,11 @@
+/**
+ * @file KnotInsert.m
+ * @author Qiong Pan (PQ2019@mail.ustc.edu.cn)
+ * @brief  Non-Zero NURBS basis finctions for a NURBS surface
+ * Orginal work written by Qiong Pan in Matlab.
+ * @date 2021-11-1
+ */
+
 function [Val, IdxU, IdxV] = NonZeroBasis(m, n, p, q, u, v, U, V, Weights)
 
 %%%%%% Non-zero NURBS basis functions and indices for a NURBS surface in (u,v) %%%%%%
