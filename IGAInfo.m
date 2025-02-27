@@ -283,8 +283,8 @@ for k = 1:num_pat
 end
 
 % local volume of elements
-LocalVe_All = zeros(num_ele,1);     % g_e = g(rho_e) = Simgma_e ((H(rho_e))*Ve) / Simgma_e Ve
-SumLocalVe0_All = zeros(num_ele,1); % Simgma_e(Ve)
+LocalVe_All = zeros(num_ele,1);     % g_e = g(rho_e) = Sigma_e ((H(rho_e))*Ve) / Sigma_e Ve
+SumLocalVe0_All = zeros(num_ele,1); % Sigma_e(Ve)
 for ele_idx = 1:num_ele
     LocalVe = 0;
     SumLocalVe0 = 0;
@@ -345,8 +345,8 @@ end
 
 % local volume and derivatives  w.r.t. \rho_{ij}
 pow = 64;  % power
-SumLVe_pow = sum(LocalVe_All.^pow,'all');   % Simgma_e (g_e)^p
-LocalVol = (SumLVe_pow / num_ele)^(1/pow);  % LV = ( 1/n * Simgma_e (g_e)^p )^(1/p)
+SumLVe_pow = sum(LocalVe_All.^pow,'all');   % Sigma_e (g_e)^p
+LocalVol = (SumLVe_pow / num_ele)^(1/pow);  % LV = ( 1/n * Sigma_e (g_e)^p )^(1/p)
 for ele_idx = 1:num_ele
     LocalVe = LocalVe_All(ele_idx);
     SumLocalVe0 = SumLocalVe0_All(ele_idx);
